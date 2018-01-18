@@ -96,7 +96,7 @@ export class Material2AppAppComponent {
     template: `
     <!--div id="container" class="centerIt"-->
         <mat-toolbar color="primary" style="height: 3.15em; width: 111%; margin-left: -1em; margin-top: -1em;">            
-            <img class="mdCardSmallDialogImg" src="./MarinBioPic2.png">
+            <img class="mdCardSmallDialogImg transparentProfilePic">
             <span id="center" class="textBottom largeFont" style="width: 50%; margin-left: -1em;">&nbsp;My Contact Info</span>            
         </mat-toolbar>
     <!--/div-->

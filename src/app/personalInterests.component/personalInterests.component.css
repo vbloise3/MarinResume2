@@ -252,6 +252,62 @@ ul {
     background-color: blue;
 }
 
+.transparentProfilePic {
+  content: url("./MarinBioPic2.png");
+}
+
+.marinDivingForResumePic {
+  content: url("./MarinDivingForResume.png");
+}
+
+.trackForResumePic {
+  content: url("./TrackForResume.png");
+}
+
+.longboardingPic {
+  content: url("./Longboarding.jpg");
+}
+
+.paddleboardingPic {
+  content: url("./Paddleboarding.png");
+}
+
+.skiingPic {
+  content: url("./Skiing.jpg");
+}
+
+.mountainBikingPic {
+  content: url("./MountainBiking.png");
+}
+
+.aISSoccerPic {
+  content: url("./AISSoccer.jpg");
+}
+
+.marinAISSoccerPic {
+  content: url("./MarinAISSoccer.jpg");
+}
+
+.hunterJumperPic {
+  content: url("./HunterJumper.jpg");
+}
+
+.marinHorseJumpingPic {
+  content: url("./MarinHorseJumping.png");
+}
+
+.fieldGoalPic {
+  content: url("./FieldGoal.jpg");
+}
+
+.marinAtMDCPic {
+  content: url("./MarinAtMDC.jpg");
+}
+
+.springside300MeterHurdlesPic {
+  content: url("./Springside300MeterHurdles.png");
+}
+
 .inlineDiv {
     display: inline-block;
 }
