@@ -1,4 +1,6 @@
-<mat-sidenav-container [class.m2app-dark]="isDarkTheme">
+
+<div fxLayout="row wrap">
+  <mat-sidenav-container fxFlex [class.m2app-dark]="isDarkTheme">
 
 
     <mat-sidenav #sidenav mode="side" class="app-sidenav mat-elevation-z15" style="border-right-style: none;">
@@ -192,110 +194,9 @@
             </mat-card>
         </mat-card>
 
-        <!--mat-card>
-            <md-radio-button name="symbol">Alpha</md-radio-button>
-            <md-radio-button name="symbol">Beta</md-radio-button>
-            <md-radio-button name="symbol" disabled>Gamma</md-radio-button>
-        </mat-card>
-
-        <mat-card class="app-input-section">
-            <md-input placeholder="First name"></md-input>
-
-            <md-input #nickname placeholder="Nickname" maxlength="50">
-                <md-hint align="end">
-                    {{nickname.characterCount}} / 50
-                </md-hint>
-            </md-input>
-
-            <md-input>
-                <md-placeholder>
-                    <i class="material-icons app-input-icon">android</i> Favorite phone
-                </md-placeholder>
-            </md-input>
-
-            <md-input placeholder="Motorcycle model">
-        <span md-prefix>
-          <i class="material-icons app-input-icon">motorcycle</i>
-          &nbsp;
-        </span>
-            </md-input>
-        </mat-card>
-
-        <mat-card>
-            <md-list class="app-list">
-                <md-list-item *ngFor="let food of foods">
-                    <h3 md-line>{{food.name}}</h3>
-                    <p md-line class="demo-secondary-text">{{food.rating}}</p>
-                </md-list-item>
-                <md-list-item *ngFor="let product of products | async">
-                    <h3 md-line>{{product.title}}</h3>
-                    <p md-line class="demo-secondary-text"><span *ngIf="productId">id: {{productId}}</span></p>
-                </md-list-item>
-            </md-list>
-        </mat-card>
-
-        <mat-card>
-            <md-spinner class="app-spinner"></md-spinner>
-            <md-spinner color="accent" class="app-spinner"></md-spinner>
-        </mat-card>
-
-        <mat-card>
-            <label>
-                Indeterminate progress-bar
-                <md-progress-bar
-                        class="app-progress"
-                        mode="indeterminate"
-                        aria-label="Indeterminate progress-bar example"></md-progress-bar>
-            </label>
-
-            <label>
-                Determinate progress bar - {{progress}}%
-                <md-progress-bar
-                        class="app-progress"
-                        color="accent"
-                        mode="determinate"
-                        [value]="progress"
-                        aria-label="Determinate progress-bar example"></md-progress-bar>
-            </label>
-        </mat-card>
-
-        <mat-card>
-            <md-tab-group>
-                <md-tab label="Earth">
-                    <p>EARTH</p>
-                </md-tab>
-                <md-tab label="Fire">
-                    <p>FIRE</p>
-                </md-tab>
-            </md-tab-group>
-        </mat-card>
-
-        <mat-card>
-            <md-icon>build</md-icon>
-        </mat-card>
-
-        <mat-card>
-            <button md-button [md-menu-trigger-for]="menu">
-                MENU
-            </button>
-        </mat-card>
-
-        <md-menu #menu="mdMenu">
-            <button md-menu-item>Lemon</button>
-            <button md-menu-item>Lime</button>
-            <button md-menu-item>Banana</button>
-            <button md-menu-item  *ngFor="let product of products | async" (click)="select(product.title)" [disabled]="product.disabled">{{product.title}}</button>
-        </md-menu>
-
-        <mat-card>
-            <p>Last dialog result: {{lastDialogResult}}</p>
-            <button md-raised-button (click)="openDialog()">DIALOG</button>
-            <button md-raised-button (click)="showSnackbar()">SNACKBAR</button>
-        </mat-card-->
-
     </div>
     <span class="app-action buttonPositionTop" [class.m2app-dark]="isDarkTheme">
         <button mat-fab style="background-color:#ffcc00;" (click)="openDialog()"><mat-icon class="material-icons md-18 iconWhite">mail outline</mat-icon></button>
     </span>
 </mat-sidenav-container>
-
+</div>

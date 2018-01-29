@@ -19,6 +19,7 @@ import {PersonalInterestsComponent, DialogContent2} from './personalInterests.co
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { TestComponent } from './test/test.component';
 import { PostsService } from './services/posts.service';
+import { FlexLayoutModule } from '@angular/flex-layout';
 /*import {MyMaterialModule} from '../my-material.model';*/
 
 // Define the routes
@@ -41,7 +42,7 @@ const appRoutes: Routes = [
 
 @NgModule({
   imports:      [ BrowserModule, ReactiveFormsModule, RouterModule,
-    HttpClientModule, routing, MatSidenavModule, MatDialogModule, MatSnackBarModule, MatIconModule, MatCardModule, MatToolbarModule, BrowserAnimationsModule, MatButtonModule,
+    HttpClientModule, routing, MatSidenavModule, MatDialogModule, MatSnackBarModule, MatIconModule, MatCardModule, MatToolbarModule, BrowserAnimationsModule, MatButtonModule, FlexLayoutModule,
     RouterModule.forRoot(
       appRoutes,
       { enableTracing: false } // <-- debugging purposes only

@@ -51,7 +51,7 @@ var Post     = require('../../src/app/models/post');
 // Element models lives here
 var Element     = require('../../src/app/models/element');
 // Npsclient models lives here
-var Npsclient     = require('../../src/app/models/npsclient');
+var Npsclient     = require('../../src/app/models/npsClient');
 
 // END DATABASE SETUP
 
