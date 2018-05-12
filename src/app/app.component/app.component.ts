@@ -4,10 +4,11 @@
 import {Component, Optional, ViewEncapsulation} from '@angular/core';
 import {MatDialog, MatDialogRef, MatSnackBar} from '@angular/material';
 import { HttpClient } from '@angular/common/http';
-import 'rxjs/add/operator/map';
-import 'rxjs/add/operator/catch';
-import 'rxjs/add/observable/empty';
-import { Observable} from "rxjs/Observable";
+// import 'rxjs/add/operator/map';
+// import 'rxjs/add/operator/catch';
+// import 'rxjs/add/observable/empty';
+// import { Observable} from "rxjs/Observable";
+import { Observable} from 'rxjs';
 import { ActivatedRoute } from '@angular/router';
 import { Router, Routes, RouterModule } from '@angular/router';
 
