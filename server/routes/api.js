@@ -37,7 +37,7 @@ let npsclients = new Array(INpsclient);
 
 // DATABASE SETUP
 var mongoose   = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/presentation'); // connect to our database
+// mongoose.connect('mongodb://localhost:27017/presentation'); // connect to our database
 // Handle the connection event
 // var db = mongoose.connection;
 // db.on('error', console.error.bind(console, 'connection error:'));
